@@ -9,16 +9,17 @@ html{
 }
 
 body{
-    background: #080808;
+    background: #64a1a5;
     color: #fff;
 }
 
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/p2.png);
+    background-image: url(images/boy.webp);
     background-size: cover;
     background-position: center;
+    object-fit: contain;
 }
 
 .container{
@@ -36,7 +37,12 @@ nav{
     width: 140px;
     height: 80px;
 }
-
+nav p{
+    color: rgb(194, 214, 11);
+    font-weight: 900;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -44,10 +50,11 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-size: 18px;
     position: relative;
+    font-weight: bold;
 }
 
 nav ul li a::after{
@@ -76,13 +83,18 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: rgb(119, 173, 37);
+    color: black;
 }
+
+.header-text p span{
+    color: black;
+    font-weight: 900;
+} 
 
 /*----------about------------*/
 #about{
     padding: 80px;
-    color: #ababab;
+    color: black;
 }
 
 .row{
@@ -108,13 +120,14 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 #paragraph{
-  text-align: justify;  
+  text-align: justify; 
+  font-style: normal;
 }
 
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: black;
 }
 
 .tab-titles{
@@ -151,7 +164,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #b54769;
+    color: #0b09a1de;
     font-size: 14px;
 }
 
@@ -324,7 +337,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: #e00d0d;
     display: inline-block;
     transition: transform 0.5s;
 }
